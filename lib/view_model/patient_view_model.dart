@@ -1,0 +1,13 @@
+import 'package:flutter/material.dart';
+
+class PatientViewModel extends ChangeNotifier{
+
+  Future<void> getUserInfo(String token)async{
+
+    // final url = Uri.parse(
+    //     'https://flutter-update-c17c7-default-rtdb.firebaseio.com/orders/$_userId.json?auth=$token');
+
+  }
+
+}
+// eyJhbGciOiJSUzI1NiIsImtpZCI6IjduY3Y5USJ9.eyJpc3MiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGUuY29tLyIsImF1ZCI6Imhvc3BpdGFsLThkYmYwIiwiaWF0IjoxNzIxMjIwNjMwLCJleHAiOjE3MjI0MzAyMzAsInVzZXJfaWQiOiIycXZZaGVLYTRPWktJcHlRMTJtZ0llZzhRRHUyIiwiZW1haWwiOiJhbGlAZ21haWwuY29tIiwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIiwidmVyaWZpZWQiOmZhbHNlfQ.WyDtetLp8B6xbnoKVLn9NwAc_B9HEnm7zBQCQUhsfI2qlT9qs8nNIloSSbKzJVBzWhBw97W13iIq_drmwLhAndkONo5WxGjoznw8Fz4g7H62hySCL2DkaB9Ev7UMPPs7piC0bEOCfoAdje8BsZGAjxRRZh6nrsUTljz-mI_-JztZ-URIO5L1vis1CbMwbda9kRJiMecP-AmXNwjPzS30magvIOuhQYKh38E0vXxP1hHhXh_TMsZcxIgrI-K2JCbuLl_EXkIsoRXiAV6pL05n1ad-ZKpeH16WDlFfgn9wqdRuNXo3GQX3FDrYsqEF7L_q5hscahGc87pyz_7rnD7e0Q
